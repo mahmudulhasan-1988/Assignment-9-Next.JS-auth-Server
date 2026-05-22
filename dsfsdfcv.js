@@ -1,0 +1,290 @@
+[
+  {
+  
+    "name": "Max",
+    "breed": "Golden Retriever",
+    "age": "3",
+    "species": "Dog",
+    "gender": "Male",
+    "adoptionFee": "320",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Dhaka, Bangladesh",
+    "email": "rahim@gmail.com",
+    "image": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+    "description": "Golden Retrievers are friendly, intelligent, and devoted dogs."
+  },
+  {
+  
+    "name": "Luna",
+    "breed": "Persian",
+    "age": "2",
+    "species": "Cat",
+    "gender": "Female",
+    "adoptionFee": "180",
+    "health": "Good",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Chattogram, Bangladesh",
+    "email": "sadia@gmail.com",
+    "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131",
+    "description": "Persian cats are calm and affectionate pets."
+  },
+  {
+   
+    "name": "Rio",
+    "breed": "Macaw",
+    "age": "4",
+    "species": "Bird",
+    "gender": "Male",
+    "adoptionFee": "400",
+    "health": "Excellent",
+    "vaccinated": "No",
+    "status": "Available",
+    "location": "Sylhet, Bangladesh",
+    "email": "karim@gmail.com",
+    "image": "https://images.unsplash.com/photo-1444464666168-49d633b86797",
+    "description": "Macaws are colorful parrots known for their intelligence."
+  },
+  {
+  
+    "name": "Bella",
+    "breed": "Rabbit",
+    "age": "1",
+    "species": "Rabbit",
+    "gender": "Female",
+    "adoptionFee": "120",
+    "health": "Good",
+    "vaccinated": "Yes",
+    "status": "Adopted",
+    "location": "Rajshahi, Bangladesh",
+    "email": "nila@gmail.com",
+    "image": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308",
+    "description": "Rabbits are gentle and social animals."
+  },
+  {
+  
+    "name": "Rocky",
+    "breed": "German Shepherd",
+    "age": "6",
+    "species": "Dog",
+    "gender": "Male",
+    "adoptionFee": "350",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Barishal, Bangladesh",
+    "email": "hasan@gmail.com",
+    "image": "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+    "description": "German Shepherds are loyal and highly trainable dogs."
+  },
+  {
+  
+    "name": "Milo",
+    "breed": "Siamese",
+    "age": "2",
+    "species": "Cat",
+    "gender": "Male",
+    "adoptionFee": "210",
+    "health": "Good",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Khulna, Bangladesh",
+    "email": "milo@gmail.com",
+    "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006",
+    "description": "Siamese cats are intelligent and affectionate companions."
+  },
+  {
+   
+    "name": "Coco",
+    "breed": "Cockatiel",
+    "age": "3",
+    "species": "Bird",
+    "gender": "Female",
+    "adoptionFee": "140",
+    "health": "Good",
+    "vaccinated": "No",
+    "status": "Available",
+    "location": "Dhaka, Bangladesh",
+    "email": "coco@gmail.com",
+    "image": "https://images.unsplash.com/photo-1522926193341-e9ffd686c60f",
+    "description": "Cockatiels are friendly birds with cheerful personalities."
+  },
+  {
+  
+    "name": "Charlie",
+    "breed": "Labrador",
+    "age": "4",
+    "species": "Dog",
+    "gender": "Male",
+    "adoptionFee": "290",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Cumilla, Bangladesh",
+    "email": "charlie@gmail.com",
+    "image": "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8",
+    "description": "Labradors are energetic and family-friendly dogs."
+  },
+  {
+    
+    "name": "Lucy",
+    "breed": "Hamster",
+    "age": "1",
+    "species": "Hamster",
+    "gender": "Female",
+    "adoptionFee": "80",
+    "health": "Good",
+    "vaccinated": "No",
+    "status": "Available",
+    "location": "Rangpur, Bangladesh",
+    "email": "lucy@gmail.com",
+    "image": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca",
+    "description": "Hamsters are small, adorable, and easy-to-care pets."
+  },
+  {
+    
+    "name": "Oscar",
+    "breed": "Parrot",
+    "age": "5",
+    "species": "Bird",
+    "gender": "Male",
+    "adoptionFee": "310",
+    "health": "Excellent",
+    "vaccinated": "No",
+    "status": "Available",
+    "location": "Mymensingh, Bangladesh",
+    "email": "oscar@gmail.com",
+    "image": "https://images.unsplash.com/photo-1544923408-75c5cef46f14",
+    "description": "Parrots are highly intelligent birds with vibrant colors."
+  },
+  {
+  
+    "name": "Daisy",
+    "breed": "Beagle",
+    "age": "2",
+    "species": "Dog",
+    "gender": "Female",
+    "adoptionFee": "260",
+    "health": "Good",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Noakhali, Bangladesh",
+    "email": "daisy@gmail.com",
+    "image": "https://images.unsplash.com/photo-1507146426996-ef05306b995a",
+    "description": "Beagles are curious, energetic, and lovable dogs."
+  },
+  {
+  
+    "name": "Nemo",
+    "breed": "Goldfish",
+    "age": "1",
+    "species": "Fish",
+    "gender": "Male",
+    "adoptionFee": "50",
+    "health": "Good",
+    "vaccinated": "No",
+    "status": "Available",
+    "location": "Khulna, Bangladesh",
+    "email": "nemo@gmail.com",
+    "image": "https://images.unsplash.com/photo-1524704654690-b56c05c78a00",
+    "description": "Goldfish are peaceful aquarium pets loved worldwide."
+  },
+  {
+    
+    "name": "Simba",
+    "breed": "Maine Coon",
+    "age": "3",
+    "species": "Cat",
+    "gender": "Male",
+    "adoptionFee": "370",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Dhaka, Bangladesh",
+    "email": "simba@gmail.com",
+    "image": "https://images.unsplash.com/photo-1511044568932-338cba0ad803",
+    "description": "Maine Coons are large and friendly cats with fluffy fur."
+  },
+  {
+    
+    "name": "Ruby",
+    "breed": "Pomeranian",
+    "age": "2",
+    "species": "Dog",
+    "gender": "Female",
+    "adoptionFee": "340",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "status": "Adopted",
+    "location": "Sylhet, Bangladesh",
+    "email": "ruby@gmail.com",
+    "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d",
+    "description": "Pomeranians are fluffy, active, and playful companion dogs."
+  },
+  {
+    
+    "name": "Snowy",
+    "breed": "White Rabbit",
+    "age": "1",
+    "species": "Rabbit",
+    "gender": "Female",
+    "adoptionFee": "100",
+    "health": "Good",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Rajshahi, Bangladesh",
+    "email": "snowy@gmail.com",
+    "image": "https://images.unsplash.com/photo-1535241749838-299277b6305f",
+    "description": "White rabbits are soft, calm, and adorable pets."
+  },
+  {
+    
+    "name": "Tom",
+    "breed": "British Shorthair",
+    "age": "4",
+    "species": "Cat",
+    "gender": "Male",
+    "adoptionFee": "280",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Khulna, Bangladesh",
+    "email": "tom@gmail.com",
+    "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d",
+    "description": "British Shorthairs are calm cats with dense plush coats."
+  },
+  {
+    
+    "name": "Buddy",
+    "breed": "Husky",
+    "age": "3",
+    "species": "Dog",
+    "gender": "Male",
+    "adoptionFee": "420",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Dhaka, Bangladesh",
+    "email": "buddy@gmail.com",
+    "image": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9",
+    "description": "Huskies are energetic dogs known for their striking appearance."
+  },
+  {
+    
+    "name": "Shelly",
+    "breed": "Red-Eared Slider",
+    "age": "5",
+    "species": "Turtle",
+    "gender": "Male",
+    "adoptionFee": "245",
+    "health": "Good",
+    "vaccinated": "Yes",
+    "status": "Available",
+    "location": "Khulna, Bangladesh",
+    "email": "fatima@gmail.com",
+    "image": "https://i.ibb.co.com/rGM2q58n/turtle.jpg",
+    "description": "Turtles are cold-blooded reptiles belonging to the ancient order Testudines."
+  }
+]

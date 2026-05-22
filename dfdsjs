@@ -1,0 +1,481 @@
+// [
+//   {
+//     "name": "Shelly",
+//     "species": "Turtle",
+//     "breed": "Red-Eared Slider",
+//     "age": 5,
+//     "gender": "Male",
+//     "location": "Khulna, Bangladesh",
+//     "adoptionFee": "Free Adoption",
+//     "status": "Available",
+//     "image": "/images/turtle.jpg"
+//   },
+//   {
+    
+//     "name": "Bella",
+//     "species": "Dog",
+//     "breed": "Golden Retriever",
+//     "age": 2,
+//     "gender": "Female",
+//     "location": "Dhaka, Bangladesh",
+//     "adoptionFee": "$120",
+//     "status": "Available",
+//     "image": "/images/dog1.jpg"
+//   },
+//   {
+   
+//     "name": "Milo",
+//     "species": "Cat",
+//     "breed": "Persian",
+//     "age": 3,
+//     "gender": "Male",
+//     "location": "Chittagong, Bangladesh",
+//     "adoptionFee": "$80",
+//     "status": "Available",
+//     "image": "/images/cat1.jpg"
+//   },
+//   {
+    
+//     "name": "Rio",
+//     "species": "Bird",
+//     "breed": "Macaw",
+//     "age": 1,
+//     "gender": "Female",
+//     "location": "Sylhet, Bangladesh",
+//     "adoptionFee": "$60",
+//     "status": "Available",
+//     "image": "/images/bird1.jpg"
+//   },
+//   {
+   
+//     "name": "Rocky",
+//     "species": "Dog",
+//     "breed": "German Shepherd",
+//     "age": 4,
+//     "gender": "Male",
+//     "location": "Rajshahi, Bangladesh",
+//     "adoptionFee": "$150",
+//     "status": "Adopted",
+//     "image": "/images/dog2.jpg"
+//   },
+//   {
+    
+//     "name": "Luna",
+//     "species": "Rabbit",
+//     "breed": "Holland Lop",
+//     "age": 2,
+//     "gender": "Female",
+//     "location": "Barisal, Bangladesh",
+//     "adoptionFee": "$40",
+//     "status": "Available",
+//     "image": "/images/rabbit1.jpg"
+//   },
+//   {
+    
+//     "name": "Charlie",
+//     "species": "Dog",
+//     "breed": "Beagle",
+//     "age": 3,
+//     "gender": "Male",
+//     "location": "Comilla, Bangladesh",
+//     "adoptionFee": "$90",
+//     "status": "Available",
+//     "image": "/images/dog3.jpg"
+//   },
+//   {
+    
+//     "name": "Lucy",
+//     "species": "Cat",
+//     "breed": "Siamese",
+//     "age": 1,
+//     "gender": "Female",
+//     "location": "Rangpur, Bangladesh",
+//     "adoptionFee": "$70",
+//     "status": "Available",
+//     "image": "/images/cat2.jpg"
+//   },
+//   {
+    
+//     "name": "Max",
+//     "species": "Dog",
+//     "breed": "Labrador",
+//     "age": 5,
+//     "gender": "Male",
+//     "location": "Mymensingh, Bangladesh",
+//     "adoptionFee": "$130",
+//     "status": "Available",
+//     "image": "/images/dog4.jpg"
+//   },
+//   {
+    
+//     "name": "Coco",
+//     "species": "Bird",
+//     "breed": "Cockatiel",
+//     "age": 2,
+//     "gender": "Female",
+//     "location": "Noakhali, Bangladesh",
+//     "adoptionFee": "$35",
+//     "status": "Available",
+//     "image": "/images/bird2.jpg"
+//   },
+//   {
+    
+//     "name": "Daisy",
+//     "species": "Rabbit",
+//     "breed": "Mini Rex",
+//     "age": 1,
+//     "gender": "Female",
+//     "location": "Jessore, Bangladesh",
+//     "adoptionFee": "$50",
+//     "status": "Available",
+//     "image": "/images/rabbit2.jpg"
+//   },
+//   {
+    
+//     "name": "Tiger",
+//     "species": "Cat",
+//     "breed": "Bengal",
+//     "age": 4,
+//     "gender": "Male",
+//     "location": "Bogura, Bangladesh",
+//     "adoptionFee": "$110",
+//     "status": "Adopted",
+//     "image": "/images/tiger1.jpg"
+//   },
+//   {
+    
+//     "name": "Buddy",
+//     "species": "Dog",
+//     "breed": "Pug",
+//     "age": 2,
+//     "gender": "Male",
+//     "location": "Dinajpur, Bangladesh",
+//     "adoptionFee": "$75",
+//     "status": "Available",
+//     "image": "/images/dog5.jpg"
+//   },
+//   {
+    
+//     "name": "Snowy",
+//     "species": "Cat",
+//     "breed": "British Shorthair",
+//     "age": 3,
+//     "gender": "Female",
+//     "location": "Pabna, Bangladesh",
+//     "adoptionFee": "$95",
+//     "status": "Available",
+//     "image": "/images/cat4.jpg"
+//   },
+//   {
+    
+//     "name": "Kiwi",
+//     "species": "Bird",
+//     "breed": "Parrot",
+//     "age": 2,
+//     "gender": "Male",
+//     "location": "Feni, Bangladesh",
+//     "adoptionFee": "$45",
+//     "status": "Available",
+//     "image": "/images/bird3.jpg"
+//   },
+//   {
+    
+//     "name": "Bruno",
+//     "species": "Dog",
+//     "breed": "Rottweiler",
+//     "age": 6,
+//     "gender": "Male",
+//     "location": "Gazipur, Bangladesh",
+//     "adoptionFee": "$180",
+//     "status": "Available",
+//     "image": "/images/dog6.jpg"
+//   },
+//   {
+    
+//     "name": "Mimi",
+//     "species": "Cat",
+//     "breed": "Maine Coon",
+//     "age": 2,
+//     "gender": "Female",
+//     "location": "Tangail, Bangladesh",
+//     "adoptionFee": "$140",
+//     "status": "Available",
+//     "image": "/images/cat5.jpg"
+//   },
+//   {
+    
+//     "name": "Bunny",
+//     "species": "Rabbit",
+//     "breed": "Lionhead",
+//     "age": 1,
+//     "gender": "Female",
+//     "location": "Kushtia, Bangladesh",
+//     "adoptionFee": "$55",
+//     "status": "Available",
+//     "image": "/images/rabbit3.jpg"
+//   }
+// ]
+
+
+
+
+
+
+
+
+
+
+[
+  {
+    "name": "Shelly",
+    "species": "Turtle",
+    "breed": "Red-Eared Slider",
+    "age": 5,
+    "gender": "Male",
+    "location": "Khulna, Bangladesh",
+    "adoptionFee": "Free Adoption",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "Yes",
+    "description": "Shelly is a calm and friendly turtle who enjoys quiet environments and gentle care.",
+    "image": "/images/turtle.jpg"
+  },
+  {
+    "name": "Bella",
+    "species": "Dog",
+    "breed": "Golden Retriever",
+    "age": 2,
+    "gender": "Female",
+    "location": "Dhaka, Bangladesh",
+    "adoptionFee": "$120",
+    "status": "Available",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "description": "Bella is playful, energetic, and loves spending time with children and families.",
+    "image": "/images/dog1.jpg"
+  },
+  {
+    "name": "Milo",
+    "species": "Cat",
+    "breed": "Persian",
+    "age": 3,
+    "gender": "Male",
+    "location": "Chittagong, Bangladesh",
+    "adoptionFee": "$80",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "Yes",
+    "description": "Milo is a soft and affectionate Persian cat who loves cuddles and naps.",
+    "image": "/images/cat1.jpg"
+  },
+  {
+    "name": "Rio",
+    "species": "Bird",
+    "breed": "Macaw",
+    "age": 1,
+    "gender": "Female",
+    "location": "Sylhet, Bangladesh",
+    "adoptionFee": "$60",
+    "status": "Available",
+    "health": "Excellent",
+    "vaccinated": "No",
+    "description": "Rio is colorful, intelligent, and enjoys interacting with people every day.",
+    "image": "/images/bird1.jpg"
+  },
+  {
+    "name": "Rocky",
+    "species": "Dog",
+    "breed": "German Shepherd",
+    "age": 4,
+    "gender": "Male",
+    "location": "Rajshahi, Bangladesh",
+    "adoptionFee": "$150",
+    "status": "Adopted",
+    "health": "Strong",
+    "vaccinated": "Yes",
+    "description": "Rocky is loyal, protective, and highly trained for active households.",
+    "image": "/images/dog2.jpg"
+  },
+  {
+    "name": "Luna",
+    "species": "Rabbit",
+    "breed": "Holland Lop",
+    "age": 2,
+    "gender": "Female",
+    "location": "Barisal, Bangladesh",
+    "adoptionFee": "$40",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "Yes",
+    "description": "Luna is gentle and adorable, perfect for a peaceful and loving family.",
+    "image": "/images/rabbit1.jpg"
+  },
+  {
+    "name": "Charlie",
+    "species": "Dog",
+    "breed": "Beagle",
+    "age": 3,
+    "gender": "Male",
+    "location": "Comilla, Bangladesh",
+    "adoptionFee": "$90",
+    "status": "Available",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "description": "Charlie is energetic and curious, always ready for adventures and walks.",
+    "image": "/images/dog3.jpg"
+  },
+  {
+    "name": "Lucy",
+    "species": "Cat",
+    "breed": "Siamese",
+    "age": 1,
+    "gender": "Female",
+    "location": "Rangpur, Bangladesh",
+    "adoptionFee": "$70",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "Yes",
+    "description": "Lucy is elegant, affectionate, and loves relaxing beside her owner.",
+    "image": "/images/cat2.jpg"
+  },
+  {
+    "name": "Max",
+    "species": "Dog",
+    "breed": "Labrador",
+    "age": 5,
+    "gender": "Male",
+    "location": "Mymensingh, Bangladesh",
+    "adoptionFee": "$130",
+    "status": "Available",
+    "health": "Strong",
+    "vaccinated": "Yes",
+    "description": "Max is intelligent and family-friendly, making him a perfect companion.",
+    "image": "/images/dog4.jpg"
+  },
+  {
+    "name": "Coco",
+    "species": "Bird",
+    "breed": "Cockatiel",
+    "age": 2,
+    "gender": "Female",
+    "location": "Noakhali, Bangladesh",
+    "adoptionFee": "$35",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "No",
+    "description": "Coco loves singing and interacting with people in a cheerful environment.",
+    "image": "/images/bird2.jpg"
+  },
+  {
+    "name": "Daisy",
+    "species": "Rabbit",
+    "breed": "Mini Rex",
+    "age": 1,
+    "gender": "Female",
+    "location": "Jessore, Bangladesh",
+    "adoptionFee": "$50",
+    "status": "Available",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "description": "Daisy is playful and fluffy, bringing happiness to every home she joins.",
+    "image": "/images/rabbit2.jpg"
+  },
+  {
+    "name": "Tiger",
+    "species": "Cat",
+    "breed": "Bengal",
+    "age": 4,
+    "gender": "Male",
+    "location": "Bogura, Bangladesh",
+    "adoptionFee": "$110",
+    "status": "Adopted",
+    "health": "Healthy",
+    "vaccinated": "Yes",
+    "description": "Tiger is active, adventurous, and enjoys climbing and exploring spaces.",
+    "image": "/images/tiger1.jpg"
+  },
+  {
+    "name": "Buddy",
+    "species": "Dog",
+    "breed": "Pug",
+    "age": 2,
+    "gender": "Male",
+    "location": "Dinajpur, Bangladesh",
+    "adoptionFee": "$75",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "Yes",
+    "description": "Buddy is funny, lovable, and enjoys cuddling with his human friends.",
+    "image": "/images/dog5.jpg"
+  },
+  {
+    "name": "Snowy",
+    "species": "Cat",
+    "breed": "British Shorthair",
+    "age": 3,
+    "gender": "Female",
+    "location": "Pabna, Bangladesh",
+    "adoptionFee": "$95",
+    "status": "Available",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "description": "Snowy is calm and graceful, ideal for peaceful indoor living.",
+    "image": "/images/cat4.jpg"
+  },
+  {
+    "name": "Kiwi",
+    "species": "Bird",
+    "breed": "Parrot",
+    "age": 2,
+    "gender": "Male",
+    "location": "Feni, Bangladesh",
+    "adoptionFee": "$45",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "No",
+    "description": "Kiwi is smart, talkative, and enjoys learning new sounds and tricks.",
+    "image": "/images/bird3.jpg"
+  },
+  {
+    "name": "Bruno",
+    "species": "Dog",
+    "breed": "Rottweiler",
+    "age": 6,
+    "gender": "Male",
+    "location": "Gazipur, Bangladesh",
+    "adoptionFee": "$180",
+    "status": "Available",
+    "health": "Strong",
+    "vaccinated": "Yes",
+    "description": "Bruno is protective, loyal, and perfect for experienced pet owners.",
+    "image": "/images/dog6.jpg"
+  },
+  {
+    "name": "Mimi",
+    "species": "Cat",
+    "breed": "Maine Coon",
+    "age": 2,
+    "gender": "Female",
+    "location": "Tangail, Bangladesh",
+    "adoptionFee": "$140",
+    "status": "Available",
+    "health": "Excellent",
+    "vaccinated": "Yes",
+    "description": "Mimi is fluffy, elegant, and enjoys attention and affection from everyone.",
+    "image": "/images/cat5.jpg"
+  },
+  {
+    "name": "Bunny",
+    "species": "Rabbit",
+    "breed": "Lionhead",
+    "age": 1,
+    "gender": "Female",
+    "location": "Kushtia, Bangladesh",
+    "adoptionFee": "$55",
+    "status": "Available",
+    "health": "Healthy",
+    "vaccinated": "Yes",
+    "description": "Bunny is tiny, adorable, and loves hopping around in open spaces.",
+    "image": "/images/rabbit3.jpg"
+  }
+]
