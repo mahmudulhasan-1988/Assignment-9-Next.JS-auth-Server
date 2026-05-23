@@ -366,20 +366,7 @@
     "description": "Coco loves singing and interacting with people in a cheerful environment.",
     "image": "/images/bird2.jpg"
   },
-  {
-    "name": "Daisy",
-    "species": "Rabbit",
-    "breed": "Mini Rex",
-    "age": 1,
-    "gender": "Female",
-    "location": "Jessore, Bangladesh",
-    "adoptionFee": "$50",
-    "status": "Available",
-    "health": "Excellent",
-    "vaccinated": "Yes",
-    "description": "Daisy is playful and fluffy, bringing happiness to every home she joins.",
-    "image": "/images/rabbit2.jpg"
-  },
+
   {
     "name": "Tiger",
     "species": "Cat",
