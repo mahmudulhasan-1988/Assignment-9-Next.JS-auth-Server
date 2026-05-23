@@ -4,6 +4,7 @@ const express = require('express');
 const dotenv =require('dotenv');
 const cors = require("cors");
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+const { createRemoteJWKSet, jwtVerify } = require("jose-cjs");
 dotenv.config()
 
 const uri = process.env.MONGODB_URI;
@@ -22,6 +23,42 @@ const client = new MongoClient(uri, {
     deprecationErrors: true,
   }
 });
+
+// JWKS
+const JWKS = createRemoteJWKSet(
+  new URL(`http://localhost:3000/api/auth/jwks`)
+  // new URL(`${process.env.CLIENT_URL}/api/auth/jwks`)
+
+  // http://localhost:3000/api/auth/jwks
+  
+)
+
+// JWT
+
+const verifyToken = async (req, res, next) =>{
+  const authHeader = req?.headers.authorization
+
+  if(!authHeader){
+    return res.status(401).json({message: "Unauthorized"})
+  }
+  const token = authHeader.split(" ")[1]
+  if(!token){
+    return res.status(401).json({message: "Unauthorized"})
+  }
+
+  try{
+    const {payload} = await jwtVerify(token, JWKS)
+    next()
+  }catch (error)
+  
+  {
+    console.log(error);
+    return res.status(403).json({
+      message: "Forbidden"});
+  }
+}
+
+
 
 
 async function run() {
@@ -66,7 +103,7 @@ async function run() {
 
   
  // Request Data Post
-    app.post("/adoptionRequests", async (req, res) => {
+    app.post("/adoptionRequests",jwtVerify, async (req, res) => {
   const body = req.body;
   const result = await adoptionRequestsCollection.insertOne(body);
   res.send(result);
@@ -86,6 +123,16 @@ app.get("/adoptionRequests/:id", async(req, res) => {
         const result = await petNestCollection.find().toArray();
         res.json(result);
     });
+
+
+    // middleware
+    app.get("/addPetNestDetail:id", verifyToken, async (req, res)=>{
+      const {id} = req.params;
+
+      const result = await adoptionRequestsCollection.findOne({
+        _id: new ObjectId(id),
+      })
+    })
 
 
 
