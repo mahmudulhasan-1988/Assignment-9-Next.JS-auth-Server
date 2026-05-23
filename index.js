@@ -26,7 +26,7 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
-    await client.connect();
+    // await client.connect();
 
     const db = client.db("assignment-9")
     const petNestCollection = db.collection("addPetNestDetail")
@@ -64,14 +64,7 @@ async function run() {
     });
 
 
-    // Request Data Post
-    // app.post("/request", async (req, res) => {
-    //   const requestData = req.body;
-    //   const result = await requestPetAdoptCollection.insertOne(requestData)
-
-    //   res.json(result);
-    // }) 
-
+  
  // Request Data Post
     app.post("/adoptionRequests", async (req, res) => {
   const body = req.body;
@@ -105,8 +98,20 @@ app.get("/adoptionRequests/:id", async(req, res) => {
         res.json(result)
     })
 
+    // Cancel Data Request
+  app.patch("/adoptionRequests/:userid", async (req, res) => {
+  const id = req.params.userid;
+  const updateData = req.body;
+  const result = await adoptionRequestsCollection.updateOne(
+    { _id: new ObjectId(id) },
+    {$set: updateData});
+  res.send(result);
+  console.log(result);
+  console.log(updateData);
+});
 
-    await client.db("admin").command({ ping: 1 });
+
+    // await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // await client.close();
