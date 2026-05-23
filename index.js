@@ -71,7 +71,7 @@ async function run() {
 
     //   res.json(result);
     // }) 
-    
+
  // Request Data Post
     app.post("/adoptionRequests", async (req, res) => {
   const body = req.body;
@@ -81,7 +81,7 @@ async function run() {
 
 
 // Request Get
-app.get("/adoptionRequests/:userId", async(req, res) => {
+app.get("/adoptionRequests/:id", async(req, res) => {
   const {userId} = req.params
   const result = await adoptionRequestsCollection.find({userId}).toArray();
   res.json(result)
