@@ -103,10 +103,10 @@ async function run() {
 
   
  // Request Data Post
-    app.post("/adoptionRequests",jwtVerify, async (req, res) => {
+    app.post("/adoptionRequests", async (req, res) => {
   const body = req.body;
   const result = await adoptionRequestsCollection.insertOne(body);
-  res.send(result);
+  res.json(result);
 });
 
 

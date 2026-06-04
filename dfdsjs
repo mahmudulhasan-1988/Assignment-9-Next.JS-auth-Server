@@ -8,7 +8,7 @@
 //     "location": "Khulna, Bangladesh",
 //     "adoptionFee": "Free Adoption",
 //     "status": "Available",
-//     "image": "/images/turtle.jpg"
+//     "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
 //   },
 //   {
     
@@ -20,7 +20,7 @@
 //     "location": "Dhaka, Bangladesh",
 //     "adoptionFee": "$120",
 //     "status": "Available",
-//     "image": "/images/dog1.jpg"
+//     "image": "https://images.unsplash.com/photo-1550547660-d9450f859349"
 //   },
 //   {
    
@@ -32,7 +32,7 @@
 //     "location": "Chittagong, Bangladesh",
 //     "adoptionFee": "$80",
 //     "status": "Available",
-//     "image": "/images/cat1.jpg"
+//     "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add"
 //   },
 //   {
     
@@ -44,7 +44,7 @@
 //     "location": "Sylhet, Bangladesh",
 //     "adoptionFee": "$60",
 //     "status": "Available",
-//     "image": "/images/bird1.jpg"
+//     "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591"
 //   },
 //   {
    
@@ -56,7 +56,7 @@
 //     "location": "Rajshahi, Bangladesh",
 //     "adoptionFee": "$150",
 //     "status": "Adopted",
-//     "image": "/images/dog2.jpg"
+//     "image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65"
 //   },
 //   {
     
@@ -68,7 +68,7 @@
 //     "location": "Barisal, Bangladesh",
 //     "adoptionFee": "$40",
 //     "status": "Available",
-//     "image": "/images/rabbit1.jpg"
+//      "image": "https://images.unsplash.com/photo-1511689660979-10d2b1aada49"
 //   },
 //   {
     
@@ -80,7 +80,7 @@
 //     "location": "Comilla, Bangladesh",
 //     "adoptionFee": "$90",
 //     "status": "Available",
-//     "image": "/images/dog3.jpg"
+//     "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58"
 //   },
 //   {
     
@@ -92,7 +92,7 @@
 //     "location": "Rangpur, Bangladesh",
 //     "adoptionFee": "$70",
 //     "status": "Available",
-//     "image": "/images/cat2.jpg"
+//     "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92"
 //   },
 //   {
     
@@ -104,7 +104,7 @@
 //     "location": "Mymensingh, Bangladesh",
 //     "adoptionFee": "$130",
 //     "status": "Available",
-//     "image": "/images/dog4.jpg"
+//     "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2"
 //   },
 //   {
     
@@ -116,7 +116,7 @@
 //     "location": "Noakhali, Bangladesh",
 //     "adoptionFee": "$35",
 //     "status": "Available",
-//     "image": "/images/bird2.jpg"
+//     "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"
 //   },
 //   {
     
@@ -128,7 +128,7 @@
 //     "location": "Jessore, Bangladesh",
 //     "adoptionFee": "$50",
 //     "status": "Available",
-//     "image": "/images/rabbit2.jpg"
+//     "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85"
 //   },
 //   {
     
@@ -140,7 +140,7 @@
 //     "location": "Bogura, Bangladesh",
 //     "adoptionFee": "$110",
 //     "status": "Adopted",
-//     "image": "/images/tiger1.jpg"
+//     "image": "https://images.unsplash.com/photo-1543332164-6e82f355badc"
 //   },
 //   {
     
@@ -152,7 +152,7 @@
 //     "location": "Dinajpur, Bangladesh",
 //     "adoptionFee": "$75",
 //     "status": "Available",
-//     "image": "/images/dog5.jpg"
+//     "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307"
 //   },
 //   {
     
@@ -164,7 +164,7 @@
 //     "location": "Pabna, Bangladesh",
 //     "adoptionFee": "$95",
 //     "status": "Available",
-//     "image": "/images/cat4.jpg"
+//     "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
 //   },
 //   {
     
@@ -176,7 +176,7 @@
 //     "location": "Feni, Bangladesh",
 //     "adoptionFee": "$45",
 //     "status": "Available",
-//     "image": "/images/bird3.jpg"
+//     "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb"
 //   },
 //   {
     
@@ -188,7 +188,7 @@
 //     "location": "Gazipur, Bangladesh",
 //     "adoptionFee": "$180",
 //     "status": "Available",
-//     "image": "/images/dog6.jpg"
+//     "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9"
 //   },
 //   {
     
@@ -200,7 +200,7 @@
 //     "location": "Tangail, Bangladesh",
 //     "adoptionFee": "$140",
 //     "status": "Available",
-//     "image": "/images/cat5.jpg"
+//     "image": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb"
 //   },
 //   {
     
@@ -212,7 +212,7 @@
 //     "location": "Kushtia, Bangladesh",
 //     "adoptionFee": "$55",
 //     "status": "Available",
-//     "image": "/images/rabbit3.jpg"
+//     "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601"
 //   }
 // ]
 
